@@ -7235,7 +7235,8 @@ h6 {
 }
 
 #board .item .image-popup:hover img {
-    opacity: .5;
+    /*opacity: .9;*/
+    filter: grayscale(50%);
 }
 
 .js .animate-box {
@@ -7635,4 +7636,18 @@ a > img.align-center {
 
 a:hover, a:focus {
     color: #5F2121;
+    text-decoration: none;
+}
+body {
+
+
+    
+    font-family: 'Poiret One', cursive;
+
+}
+
+.navbar-brand{
+    
+    font-family: 'Arvo', serif;
+
 }
