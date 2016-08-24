@@ -3045,6 +3045,7 @@ tbody.collapse.in {
     background-clip: padding-box;
 }
 
+
 .dropdown-menu.pull-right {
     right: 0;
     left: auto;
@@ -3070,7 +3071,7 @@ tbody.collapse.in {
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
     text-decoration: none;
-    color: #262626;
+    color: #5F2121;
     background-color: #f5f5f5;
 }
 
@@ -3086,7 +3087,7 @@ tbody.collapse.in {
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
-    color: #777777;
+    color: #5F2121;
 }
 
 .dropdown-menu > .disabled > a:hover,
@@ -7632,5 +7633,6 @@ a > img.align-center {
 }
 
 
-/*# sourceMappingURL=style.css.map */
-
+a:hover, a:focus {
+    color: #5F2121;
+}
